@@ -1,0 +1,56 @@
+html {
+  font-size: 10px;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.key {
+  height: 75px;
+  width: 85px;
+  background-color: red;
+  margin: 10px;
+  text-align: center;
+  border: 0.4rem solid black;
+  border-radius: 0.5rem;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  text-shadow: 0 0 0.5rem black;
+  transition: all 0.07s ease;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+  background: rgba(0, 0, 0, 0);
+}
+
+kbd {
+  font-size: 40px;
+  display: block;
+}
+
+.sound {
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #ffc600;
+}
