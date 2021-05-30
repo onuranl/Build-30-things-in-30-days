@@ -1,0 +1,45 @@
+html {
+  box-sizing: border-box;
+  background: #ffc600;
+  font-family: "helvetica neue";
+  font-size: 20px;
+  font-weight: 200;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+input {
+  width: 100%;
+  padding: 20px;
+}
+
+.search-form {
+  margin: 50px;
+  max-width: 400px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+}
+
+.suggestions {
+  margin: 0;
+  padding: 0;
+}
+
+.suggestions li {
+  text-align: center;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+  padding: 20px;
+  margin: 0;
+}
